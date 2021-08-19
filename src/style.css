@@ -1,0 +1,29 @@
+#container {
+    height: 100vh;
+    background: linear-gradient(pink, 70%, rgb(8, 235, 216));
+    position: relative;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+/* .log div {
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+}
+
+.log div.message {
+    opacity: 1;
+} */
