@@ -37,8 +37,8 @@ export default class Circle {
                     id: this.config.id,
                     color: $("#color").val(),
                     size:  $("#size").val(),
-                    top: 100,
-                    left: 200,
+                    top: 0,
+                    left: 0,
                 },
             }),
         );
