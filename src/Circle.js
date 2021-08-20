@@ -4,7 +4,7 @@ import $ from 'jquery';
 
 const CONNECTION_URL = 'wss://fep-app.herokuapp.com/';
 
-export default class Chat {
+export default class Circle {
     constructor(config) {
         this.config = config;
     }
