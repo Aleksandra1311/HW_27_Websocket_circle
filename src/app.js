@@ -34,10 +34,10 @@ function handleMessage({ payload }) {
     const $circle = $('<div></div>');
     $circle.addClass('circle');
     $circle.attr("id", payload.id);
-    $circle.css("height", payload.size);
-    $circle.css("width", payload.size);
-    $circle.css('background-color', payload.color);
     $circle.css({ top: payload.top, left: payload.left });
+    $circle.css('background-color', payload.color);
+    $circle.css("width", payload.size);
+    $circle.css("height", payload.size);
     $container.append($circle);
 
 }
