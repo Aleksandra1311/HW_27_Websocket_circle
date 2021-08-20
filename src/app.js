@@ -1,10 +1,10 @@
 import './style.css';
 import $ from 'jquery';
-import Chat from './Chat';
+import Circle from './Circle';
 
 const uniqueID = Date.now();
 
-const talk = new Chat({
+const talk = new Circle({
     onMessage: handleMessage,
     id: uniqueID,
 });
@@ -13,9 +13,9 @@ const $container = $('#container');
 const $colorInput = $('#color');
 const $sizeInput = $('#size');
 
-$($container).on('click', onBodyClick);
+$($container).on('click', onContainerClick);
 
-function onBodyClick(e) {
+function onContainerClick(e) {
     const top = e.pageY - 50;
     const left = e.pageX - 50;
     
